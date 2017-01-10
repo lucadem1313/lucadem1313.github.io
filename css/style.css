@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Bungee|Dosis");
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+#about {
+	font: 23px "Lato", "sans-serif";
+	line-height: 1.6em;
+	padding-top: 40px;
+}
+#about #logo-container {
+	width: 90%;
+	max-width: 600px;
+	margin: 60px auto;
+}
+#about #logo {
+	width: 90px;
+}
+#about p {
+	width: 90%;
+	margin: 60px auto;
+	max-width: 600px;
+}
+#about #social {
+	text-align: left;
+	width: 90%;
+	max-width: 600px;
+	margin: 0px auto;
+}
+#about #social a {
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#about #social img{
+	width: 35px;
+}
+
+#portfolio {
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.divider {
+	display: block;
+	width: 48px;
+	height: 6px;
+	background: #ff5959;
+}
+#portfolio .item {
+	font: 30px "Dosis", "sans-serif";
+	margin: 50px 0px;
+	line-height: 1.3em;
+}
+#portfolio .item:nth-of-type(1) {
+	margin-top: 0px;
+}
+#portfolio .item a {
+	font-weight: 800;
+	color: #000;
+	text-decoration: none;
+	padding: 0px;
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+}
+#portfolio .item a:hover {
+	color: #1a1af9;
+}
+
+#portfolio .item #andorium:hover {
+	color: #4aff77;
+}
+#portfolio .item #compare:hover {
+	color: #0270e4;
+}
+#portfolio .item #topterroir:hover {
+	color: #d55aff;
+}
+
+#portfolio .item #savemypalette:hover {
+	color: #f23f54;
+}
+
+::selection{
+	background: #ff5959;
+	color: #FFF;
+}
